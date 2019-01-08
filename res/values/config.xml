@@ -96,7 +96,7 @@
     <!-- Determine whether calls to mute the microphone in PhoneUtils
          are routed through the android.media.AudioManager class (true) or through
          the com.android.internal.telephony.Phone interface (false). -->
-    <bool name="send_mic_mute_to_AudioManager">false</bool>
+    <bool name="send_mic_mute_to_AudioManager">true</bool>
 
     <!-- Determines if device implements a noise suppression device for in call audio-->
     <!-- DEPRECATED: Use CarrierConfigManager#KEY_HAS_IN_CALL_NOISE_SUPPRESSION_BOOL -->
@@ -137,7 +137,7 @@
     <!-- DEPRECATED: Use CarrierConfigManager#KEY_PREFER_2G_BOOL -->
     <bool name="config_prefer_2g" translatable="false">true</bool>
     <!-- Show enabled lte option for lte device -->
-    <bool name="config_enabled_lte" translatable="false">false</bool>
+    <bool name="config_enabled_lte" translatable="false">true</bool>
     <!-- Show enabled tdscdma option for device -->
     <bool name="config_support_tdscdma" translatable="false">false</bool>
     <!-- Show enabled tdscdma option for device when connect roaming network -->
